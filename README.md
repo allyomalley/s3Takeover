@@ -15,5 +15,5 @@ Note that the bucket creation process uses the AWS SDK for Go - it will automati
 ## Usage
 
 ```
-go run s3Takeover.go <Target URL>
+s3Takeover <Target URL>
 ```
