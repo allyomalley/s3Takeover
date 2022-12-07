@@ -7,7 +7,7 @@ Tool to automate the process of an S3 bucket takeover via CNAME - given a target
 Install the tool and required dependencies:
 
 ```
-go get github.com/allyomalley/s3Takeover/...
+go install github.com/allyomalley/s3Takeover@latest
 ```
 
 Note that the bucket creation process uses the AWS SDK for Go - it will automatically use the credentials you have configured with the AWS CLI.
